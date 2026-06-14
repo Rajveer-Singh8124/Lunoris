@@ -1,7 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-const imgDir = './img';
+const imgDir = './src/assets/img';
+const chainsDir = './src/assets/img/eyeglass chains';
 const outputFile = './src/data/products.js';
 
 const names = [
@@ -42,73 +43,154 @@ const featuresList = [
   ["Ultra-soft microfiber", "Static-free cleaning", "Compact packaging"]
 ];
 
-fs.readdir(imgDir, (err, files) => {
-  if (err) {
-    console.error("Error reading directory:", err);
-    process.exit(1);
+const chainMetadata = {
+  "Eyeglass-Chain-Glasses-Strap-Cords-Sunglass-Holder.webp": {
+    name: "Lunoris Premium Leather Strap",
+    description: "Handcrafted leather glasses cord designed for durability and refined accessory style.",
+    materials: ["Full Grain Leather", "Brass Loop Ends"],
+    features: ["Adjustable loop grips", "Soft neck-friendly strap", "Durable stitching"],
+    price: 450,
+    dimensions: "70cm length",
+    weight: "15g"
+  },
+  "Screenshot_12-6-2026_192125_www.meesho.com.jpeg": {
+    name: "Lunoris Classic Link Chain",
+    description: "Sleek and delicate metal link eyeglass chain designed for daily elegance.",
+    materials: ["Polished Alloy", "Silicone Grips"],
+    features: ["Universal rubber fit", "Lightweight feel", "Tarnish resistant"],
+    price: 499,
+    dimensions: "72cm length",
+    weight: "18g"
+  },
+  "Screenshot_12-6-2026_192243_www.meesho.com.jpeg": {
+    name: "Lunoris Soft Weave Cord",
+    description: "Vibrant and robust braided cotton glasses cord with adjustable non-slip locks.",
+    materials: ["Braided Cotton Thread", "Brass Sleeves"],
+    features: ["Soft and washable", "Adjustable tension sliders", "Secures sports and fashion glasses"],
+    price: 399,
+    dimensions: "75cm length",
+    weight: "12g"
+  },
+  "Screenshot_12-6-2026_192336_www.meesho.com.jpeg": {
+    name: "Lunoris Luxe Beaded Holder",
+    description: "Premium beaded sunglass strap adding a elegant jewelry accent to your visionwear.",
+    materials: ["Natural Glass Beads", "Gold-plated Accents"],
+    features: ["Double-reinforced thread", "Non-slip silicon loops", "Drapes elegantly as a necklace"],
+    price: 599,
+    dimensions: "68cm length",
+    weight: "25g"
   }
+};
 
-  // Filter image files
+try {
+  // 1. Read root img folder for main case/accessory products
+  const files = fs.readdirSync(imgDir);
   const imageExtensions = ['.jpg', '.jpeg', '.png', '.webp'];
-  const images = files.filter(file => imageExtensions.includes(path.extname(file).toLowerCase()));
+  const caseImages = files.filter(file => {
+    const fullPath = path.join(imgDir, file);
+    const isFile = fs.statSync(fullPath).isFile();
+    return isFile && imageExtensions.includes(path.extname(file).toLowerCase());
+  });
 
-  console.log(`Found ${images.length} images.`);
+  console.log(`Found ${caseImages.length} case images in ${imgDir}.`);
 
-  const products = images.map((filename, index) => {
-    // Determine a category based on index
+  let productList = [];
+  let productIndex = 1;
+  let importsList = [];
+
+  // Process case products
+  caseImages.forEach((filename, index) => {
     const categories = Object.keys(types);
     const category = categories[index % categories.length];
-    
-    // Select name and details
     const namePrefix = names[index % names.length];
     const categoryName = types[category];
     const name = `Lunoris ${namePrefix} ${categoryName}`;
-    
     const desc = descriptions[index % descriptions.length];
-    
-    // Choose 2-3 materials
     const mats = [
       materials[index % materials.length],
       materials[(index + 2) % materials.length]
     ];
-    
-    // Select features
     const features = featuresList[index % featuresList.length];
+    const price = 450 + (index % 10) * 150;
 
-    // Assign custom dimensions and pricing
-    const price = 450 + (index % 10) * 150; // Mock price in INR or $
-    
-    return {
-      id: `p-${index + 1}`,
+    const varName = `case_img_${index}`;
+    importsList.push(`import ${varName} from '../assets/img/${filename}';`);
+
+    productList.push({
+      id: `p-${productIndex++}`,
       name,
       category,
       categoryLabel: categoryName,
-      image: `/img/${filename}`,
+      image: `__IMG_VAR_${varName}__`,
       price,
       description: desc,
       materials: mats,
       features,
       dimensions: `${15 + (index % 3)}cm x ${6 + (index % 2)}cm x ${4 + (index % 2)}cm`,
       weight: `${80 + (index % 5) * 15}g`
-    };
+    });
   });
 
-  // Write file content
-  const codeContent = `// Automatically generated product data
-export const products = ${JSON.stringify(products, null, 2)};
+  // 2. Read eyeglass chains folder for chain-strap products
+  if (fs.existsSync(chainsDir)) {
+    const chainFiles = fs.readdirSync(chainsDir);
+    const chainImages = chainFiles.filter(file => {
+      const fullPath = path.join(chainsDir, file);
+      const isFile = fs.statSync(fullPath).isFile();
+      return isFile && imageExtensions.includes(path.extname(file).toLowerCase());
+    });
+
+    console.log(`Found ${chainImages.length} chain images in ${chainsDir}.`);
+
+    chainImages.forEach((filename, index) => {
+      // Check if we have defined metadata for this file, else generate dynamically
+      const meta = chainMetadata[filename] || {
+        name: `Lunoris ${names[(index + 5) % names.length]} Eyeglass Chain`,
+        description: "Artisan glasses strap crafted with premium styling to keep your eyewear secure.",
+        materials: ["Vegan Leather", "Silicone Grips"],
+        features: ["Adjustable loop ends", "Lightweight design"],
+        price: 399 + (index % 5) * 100,
+        dimensions: "72cm length",
+        weight: "15g"
+      };
+
+      const varName = `chain_img_${index}`;
+      importsList.push(`import ${varName} from '../assets/img/eyeglass chains/${filename}';`);
+
+      productList.push({
+        id: `p-${productIndex++}`,
+        name: meta.name,
+        category: "chain-strap",
+        categoryLabel: "Chains & Straps",
+        image: `__IMG_VAR_${varName}__`,
+        price: meta.price,
+        description: meta.description,
+        materials: meta.materials,
+        features: meta.features,
+        dimensions: meta.dimensions,
+        weight: meta.weight
+      });
+    });
+  }
+
+  // 3. Write generated file content
+  let codeContent = `// Automatically generated product data
+${importsList.join('\n')}
+
+export const products = ${JSON.stringify(productList, null, 2)};
 `;
 
-  // Ensure directories exist
+  codeContent = codeContent.replace(/"__IMG_VAR_(.*?)__"/g, '$1');
+
   const dir = path.dirname(outputFile);
   if (!fs.existsSync(dir)){
       fs.mkdirSync(dir, { recursive: true });
   }
 
-  fs.writeFile(outputFile, codeContent, 'utf8', (err) => {
-    if (err) {
-      console.error("Error writing file:", err);
-      process.exit(1);
-    }
-    console.log("Successfully generated src/data/products.js");
-  });
-});
+  fs.writeFileSync(outputFile, codeContent, 'utf8');
+  console.log(`Successfully generated ${outputFile} with ${productList.length} products.`);
+
+} catch (err) {
+  console.error("Error generating products:", err);
+  process.exit(1);
+}
