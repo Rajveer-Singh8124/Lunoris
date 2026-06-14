@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
+import chainImg1 from '../assets/img/eyeglass chains/Eyeglass-Chain-Glasses-Strap-Cords-Sunglass-Holder.webp';
+import chainImg2 from '../assets/img/eyeglass chains/Screenshot_12-6-2026_192125_www.meesho.com.jpeg';
+import chainImg3 from '../assets/img/eyeglass chains/Screenshot_12-6-2026_192243_www.meesho.com.jpeg';
+import chainImg4 from '../assets/img/eyeglass chains/Screenshot_12-6-2026_192336_www.meesho.com.jpeg';
 
 export default function Home({ setCurrentPage, navigateToCollections }) {
   const chainImages = [
-    '/img/eyeglass chains/Eyeglass-Chain-Glasses-Strap-Cords-Sunglass-Holder.webp',
-    '/img/eyeglass chains/Screenshot_12-6-2026_192125_www.meesho.com.jpeg',
-    '/img/eyeglass chains/Screenshot_12-6-2026_192243_www.meesho.com.jpeg',
-    '/img/eyeglass chains/Screenshot_12-6-2026_192336_www.meesho.com.jpeg'
+    chainImg1,
+    chainImg2,
+    chainImg3,
+    chainImg4
   ];
   const [activeChainImg, setActiveChainImg] = useState(chainImages[0]);
   return (
@@ -111,7 +115,7 @@ export default function Home({ setCurrentPage, navigateToCollections }) {
             <div className="md:col-span-4 row-span-1 group relative overflow-hidden rounded-xl bg-white shadow-ambient border border-surface-variant p-6 flex flex-col justify-between transition-transform duration-500 hover:-translate-y-1">
               <div className="absolute inset-0 bg-primary/5 z-0"></div>
               <div className="relative z-10">
-                <span className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-2 block">Retail</span>
+                <span className="font-label-md text-label-md text-secondary uppercase tracking-widest mb-2 block">Manufacturer</span>
                 <h3 className="font-headline-md text-headline-md text-primary">Display Trays</h3>
               </div>
               <div className="relative z-10 flex justify-between items-end mt-4">

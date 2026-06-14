@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../assets/logo.png';
 
 export default function Navbar({ currentPage, setCurrentPage, navigateToCollections }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,12 +25,11 @@ export default function Navbar({ currentPage, setCurrentPage, navigateToCollecti
         {/* Brand Logo */}
         <a
           onClick={(e) => { e.preventDefault(); setCurrentPage('home'); }}
-          className="font-display-lg text-[28px] md:text-headline-md text-primary tracking-tighter flex items-center gap-2 relative cursor-pointer group"
+          className="font-display-lg text-[28px] md:text-headline-md text-primary tracking-tighter flex items-center gap-3 relative cursor-pointer group"
           href="#"
         >
+          <img src={logo} alt="Lunoris Logo" className="h-8 w-auto object-contain transition-transform duration-500 group-hover:scale-105" />
           <span className="relative z-10 select-none">Lunoris</span>
-          {/* Subtle crescent motif */}
-          <div className="absolute -right-3 -top-1 w-4 h-4 rounded-full border-t-2 border-r-2 border-secondary opacity-50 transform rotate-45 group-hover:rotate-90 transition-transform duration-500"></div>
         </a>
 
         {/* Navigation Links (Desktop) */}

@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/logo.png';
 
 export default function Footer({ setCurrentPage, navigateToCollections }) {
   return (
@@ -9,10 +10,11 @@ export default function Footer({ setCurrentPage, navigateToCollections }) {
         <div className="col-span-1 md:col-span-1 flex flex-col gap-6">
           <a
             onClick={(e) => { e.preventDefault(); setCurrentPage('home'); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-            className="font-display-lg text-headline-lg text-on-primary flex items-center gap-2 cursor-pointer"
+            className="font-display-lg text-headline-lg text-on-primary flex items-center gap-3 cursor-pointer"
             href="#"
           >
-            Lunoris
+            <img src={logo} alt="Lunoris Logo" className="h-8 w-auto object-contain brightness-0 invert" />
+            <span>Lunoris</span>
           </a>
           <p className="text-on-primary-container text-sm max-w-xs leading-relaxed opacity-80">
             Artisan eyewear protection. Blending utility with quiet luxury. A division of Sunshine Opticals.

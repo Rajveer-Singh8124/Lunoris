@@ -1,11 +1,65 @@
 // Automatically generated product data
+import case_img_0 from '../assets/img/IMG-20260604-WA0002.jpg';
+import case_img_1 from '../assets/img/IMG-20260604-WA0005.jpg';
+import case_img_2 from '../assets/img/IMG-20260604-WA0007.jpg';
+import case_img_3 from '../assets/img/IMG-20260604-WA0008.jpg';
+import case_img_4 from '../assets/img/IMG-20260604-WA0009.jpg';
+import case_img_5 from '../assets/img/IMG-20260604-WA0010.jpg';
+import case_img_6 from '../assets/img/IMG-20260604-WA0011.jpg';
+import case_img_7 from '../assets/img/IMG-20260604-WA0013.jpg';
+import case_img_8 from '../assets/img/IMG-20260604-WA0026.jpg';
+import case_img_9 from '../assets/img/IMG-20260604-WA0027.jpg';
+import case_img_10 from '../assets/img/IMG-20260604-WA0028.jpg';
+import case_img_11 from '../assets/img/IMG-20260604-WA0029.jpg';
+import case_img_12 from '../assets/img/IMG-20260604-WA0030.jpg';
+import case_img_13 from '../assets/img/IMG-20260604-WA0031.jpg';
+import case_img_14 from '../assets/img/IMG-20260604-WA0032.jpg';
+import case_img_15 from '../assets/img/IMG-20260604-WA0033.jpg';
+import case_img_16 from '../assets/img/IMG-20260604-WA0034.jpg';
+import case_img_17 from '../assets/img/IMG-20260604-WA0035.jpg';
+import case_img_18 from '../assets/img/IMG-20260604-WA0036.jpg';
+import case_img_19 from '../assets/img/IMG-20260604-WA0037.jpg';
+import case_img_20 from '../assets/img/IMG-20260604-WA0039.jpg';
+import case_img_21 from '../assets/img/IMG-20260604-WA0040.jpg';
+import case_img_22 from '../assets/img/IMG-20260604-WA0041.jpg';
+import case_img_23 from '../assets/img/IMG-20260604-WA0042.jpg';
+import case_img_24 from '../assets/img/IMG-20260604-WA0044.jpg';
+import case_img_25 from '../assets/img/IMG-20260604-WA0045.jpg';
+import case_img_26 from '../assets/img/IMG-20260604-WA0046.jpg';
+import case_img_27 from '../assets/img/IMG-20260604-WA0047.jpg';
+import case_img_28 from '../assets/img/IMG-20260604-WA0048.jpg';
+import case_img_29 from '../assets/img/IMG-20260604-WA0049.jpg';
+import case_img_30 from '../assets/img/IMG-20260604-WA0050.jpg';
+import case_img_31 from '../assets/img/IMG-20260604-WA0052.jpg';
+import case_img_32 from '../assets/img/IMG-20260604-WA0054.jpg';
+import case_img_33 from '../assets/img/IMG-20260604-WA0056.jpg';
+import case_img_34 from '../assets/img/IMG-20260604-WA0057.jpg';
+import case_img_35 from '../assets/img/IMG-20260604-WA0058.jpg';
+import case_img_36 from '../assets/img/IMG-20260604-WA0059.jpg';
+import case_img_37 from '../assets/img/IMG-20260604-WA0060.jpg';
+import case_img_38 from '../assets/img/IMG-20260604-WA0063.jpg';
+import case_img_39 from '../assets/img/IMG-20260604-WA0089.jpg';
+import case_img_40 from '../assets/img/IMG-20260604-WA0090.jpg';
+import case_img_41 from '../assets/img/IMG-20260604-WA0091.jpg';
+import case_img_42 from '../assets/img/IMG-20260604-WA0092.jpg';
+import case_img_43 from '../assets/img/IMG-20260604-WA0093.jpg';
+import case_img_44 from '../assets/img/IMG-20260604-WA0094.jpg';
+import case_img_45 from '../assets/img/IMG-20260604-WA0095.jpg';
+import case_img_46 from '../assets/img/IMG-20260604-WA0096.jpg';
+import case_img_47 from '../assets/img/IMG-20260604-WA0097.jpg';
+import case_img_48 from '../assets/img/IMG-20260604-WA0099.jpg';
+import chain_img_0 from '../assets/img/eyeglass chains/Eyeglass-Chain-Glasses-Strap-Cords-Sunglass-Holder.webp';
+import chain_img_1 from '../assets/img/eyeglass chains/Screenshot_12-6-2026_192125_www.meesho.com.jpeg';
+import chain_img_2 from '../assets/img/eyeglass chains/Screenshot_12-6-2026_192243_www.meesho.com.jpeg';
+import chain_img_3 from '../assets/img/eyeglass chains/Screenshot_12-6-2026_192336_www.meesho.com.jpeg';
+
 export const products = [
   {
     "id": "p-1",
     "name": "Lunoris Astra Flat Case",
     "category": "flat-case",
     "categoryLabel": "Flat Case",
-    "image": "/img/IMG-20260604-WA0002.jpg",
+    "image": case_img_0,
     "price": 450,
     "description": "Meticulously crafted with a sleek profile and refined stitching, perfect for everyday sophistication.",
     "materials": [
@@ -25,7 +79,7 @@ export const products = [
     "name": "Lunoris Solis Pocket Case",
     "category": "pocket-case",
     "categoryLabel": "Pocket Case",
-    "image": "/img/IMG-20260604-WA0005.jpg",
+    "image": case_img_1,
     "price": 600,
     "description": "Engineered for optimal protection with an organic lining that cushions and guards your delicate frames.",
     "materials": [
@@ -45,7 +99,7 @@ export const products = [
     "name": "Lunoris Nova Hard Case",
     "category": "hard-case",
     "categoryLabel": "Hard Case",
-    "image": "/img/IMG-20260604-WA0007.jpg",
+    "image": case_img_2,
     "price": 750,
     "description": "A contemporary take on traditional luxury eyewear protection, blending utility with quiet luxury.",
     "materials": [
@@ -65,7 +119,7 @@ export const products = [
     "name": "Lunoris Orion Display & Counter Tray",
     "category": "display-tray",
     "categoryLabel": "Display & Counter Tray",
-    "image": "/img/IMG-20260604-WA0008.jpg",
+    "image": case_img_3,
     "price": 900,
     "description": "Constructed from premium textured materials for ultimate tactile satisfaction and durability.",
     "materials": [
@@ -85,7 +139,7 @@ export const products = [
     "name": "Lunoris Lyra Selvet & Accessory",
     "category": "accessory",
     "categoryLabel": "Selvet & Accessory",
-    "image": "/img/IMG-20260604-WA0009.jpg",
+    "image": case_img_4,
     "price": 1050,
     "description": "Designed for effortless mobility, fitting comfortably in any bag or pocket while maintaining rigid protection.",
     "materials": [
@@ -105,7 +159,7 @@ export const products = [
     "name": "Lunoris Vela Flat Case",
     "category": "flat-case",
     "categoryLabel": "Flat Case",
-    "image": "/img/IMG-20260604-WA0010.jpg",
+    "image": case_img_5,
     "price": 1200,
     "description": "Features a soft microfiber interior and secure ambient closure to keep lenses clean and scratch-free.",
     "materials": [
@@ -125,7 +179,7 @@ export const products = [
     "name": "Lunoris Cygnus Pocket Case",
     "category": "pocket-case",
     "categoryLabel": "Pocket Case",
-    "image": "/img/IMG-20260604-WA0011.jpg",
+    "image": case_img_6,
     "price": 1350,
     "description": "Meticulously crafted with a sleek profile and refined stitching, perfect for everyday sophistication.",
     "materials": [
@@ -145,7 +199,7 @@ export const products = [
     "name": "Lunoris Taurus Hard Case",
     "category": "hard-case",
     "categoryLabel": "Hard Case",
-    "image": "/img/IMG-20260604-WA0013.jpg",
+    "image": case_img_7,
     "price": 1500,
     "description": "Engineered for optimal protection with an organic lining that cushions and guards your delicate frames.",
     "materials": [
@@ -165,7 +219,7 @@ export const products = [
     "name": "Lunoris Gemini Display & Counter Tray",
     "category": "display-tray",
     "categoryLabel": "Display & Counter Tray",
-    "image": "/img/IMG-20260604-WA0026.jpg",
+    "image": case_img_8,
     "price": 1650,
     "description": "A contemporary take on traditional luxury eyewear protection, blending utility with quiet luxury.",
     "materials": [
@@ -185,7 +239,7 @@ export const products = [
     "name": "Lunoris Polaris Selvet & Accessory",
     "category": "accessory",
     "categoryLabel": "Selvet & Accessory",
-    "image": "/img/IMG-20260604-WA0027.jpg",
+    "image": case_img_9,
     "price": 1800,
     "description": "Constructed from premium textured materials for ultimate tactile satisfaction and durability.",
     "materials": [
@@ -205,7 +259,7 @@ export const products = [
     "name": "Lunoris Sirius Flat Case",
     "category": "flat-case",
     "categoryLabel": "Flat Case",
-    "image": "/img/IMG-20260604-WA0028.jpg",
+    "image": case_img_10,
     "price": 450,
     "description": "Designed for effortless mobility, fitting comfortably in any bag or pocket while maintaining rigid protection.",
     "materials": [
@@ -225,7 +279,7 @@ export const products = [
     "name": "Lunoris Vega Pocket Case",
     "category": "pocket-case",
     "categoryLabel": "Pocket Case",
-    "image": "/img/IMG-20260604-WA0029.jpg",
+    "image": case_img_11,
     "price": 600,
     "description": "Features a soft microfiber interior and secure ambient closure to keep lenses clean and scratch-free.",
     "materials": [
@@ -245,7 +299,7 @@ export const products = [
     "name": "Lunoris Altair Hard Case",
     "category": "hard-case",
     "categoryLabel": "Hard Case",
-    "image": "/img/IMG-20260604-WA0030.jpg",
+    "image": case_img_12,
     "price": 750,
     "description": "Meticulously crafted with a sleek profile and refined stitching, perfect for everyday sophistication.",
     "materials": [
@@ -265,7 +319,7 @@ export const products = [
     "name": "Lunoris Capella Display & Counter Tray",
     "category": "display-tray",
     "categoryLabel": "Display & Counter Tray",
-    "image": "/img/IMG-20260604-WA0031.jpg",
+    "image": case_img_13,
     "price": 900,
     "description": "Engineered for optimal protection with an organic lining that cushions and guards your delicate frames.",
     "materials": [
@@ -285,7 +339,7 @@ export const products = [
     "name": "Lunoris Castor Selvet & Accessory",
     "category": "accessory",
     "categoryLabel": "Selvet & Accessory",
-    "image": "/img/IMG-20260604-WA0032.jpg",
+    "image": case_img_14,
     "price": 1050,
     "description": "A contemporary take on traditional luxury eyewear protection, blending utility with quiet luxury.",
     "materials": [
@@ -305,7 +359,7 @@ export const products = [
     "name": "Lunoris Pollux Flat Case",
     "category": "flat-case",
     "categoryLabel": "Flat Case",
-    "image": "/img/IMG-20260604-WA0033.jpg",
+    "image": case_img_15,
     "price": 1200,
     "description": "Constructed from premium textured materials for ultimate tactile satisfaction and durability.",
     "materials": [
@@ -325,7 +379,7 @@ export const products = [
     "name": "Lunoris Rigel Pocket Case",
     "category": "pocket-case",
     "categoryLabel": "Pocket Case",
-    "image": "/img/IMG-20260604-WA0034.jpg",
+    "image": case_img_16,
     "price": 1350,
     "description": "Designed for effortless mobility, fitting comfortably in any bag or pocket while maintaining rigid protection.",
     "materials": [
@@ -345,7 +399,7 @@ export const products = [
     "name": "Lunoris Betelgeuse Hard Case",
     "category": "hard-case",
     "categoryLabel": "Hard Case",
-    "image": "/img/IMG-20260604-WA0035.jpg",
+    "image": case_img_17,
     "price": 1500,
     "description": "Features a soft microfiber interior and secure ambient closure to keep lenses clean and scratch-free.",
     "materials": [
@@ -365,7 +419,7 @@ export const products = [
     "name": "Lunoris Procyon Display & Counter Tray",
     "category": "display-tray",
     "categoryLabel": "Display & Counter Tray",
-    "image": "/img/IMG-20260604-WA0036.jpg",
+    "image": case_img_18,
     "price": 1650,
     "description": "Meticulously crafted with a sleek profile and refined stitching, perfect for everyday sophistication.",
     "materials": [
@@ -385,7 +439,7 @@ export const products = [
     "name": "Lunoris Arcturus Selvet & Accessory",
     "category": "accessory",
     "categoryLabel": "Selvet & Accessory",
-    "image": "/img/IMG-20260604-WA0037.jpg",
+    "image": case_img_19,
     "price": 1800,
     "description": "Engineered for optimal protection with an organic lining that cushions and guards your delicate frames.",
     "materials": [
@@ -405,7 +459,7 @@ export const products = [
     "name": "Lunoris Spica Flat Case",
     "category": "flat-case",
     "categoryLabel": "Flat Case",
-    "image": "/img/IMG-20260604-WA0039.jpg",
+    "image": case_img_20,
     "price": 450,
     "description": "A contemporary take on traditional luxury eyewear protection, blending utility with quiet luxury.",
     "materials": [
@@ -425,7 +479,7 @@ export const products = [
     "name": "Lunoris Antares Pocket Case",
     "category": "pocket-case",
     "categoryLabel": "Pocket Case",
-    "image": "/img/IMG-20260604-WA0040.jpg",
+    "image": case_img_21,
     "price": 600,
     "description": "Constructed from premium textured materials for ultimate tactile satisfaction and durability.",
     "materials": [
@@ -445,7 +499,7 @@ export const products = [
     "name": "Lunoris Fomalhaut Hard Case",
     "category": "hard-case",
     "categoryLabel": "Hard Case",
-    "image": "/img/IMG-20260604-WA0041.jpg",
+    "image": case_img_22,
     "price": 750,
     "description": "Designed for effortless mobility, fitting comfortably in any bag or pocket while maintaining rigid protection.",
     "materials": [
@@ -465,7 +519,7 @@ export const products = [
     "name": "Lunoris Regulus Display & Counter Tray",
     "category": "display-tray",
     "categoryLabel": "Display & Counter Tray",
-    "image": "/img/IMG-20260604-WA0042.jpg",
+    "image": case_img_23,
     "price": 900,
     "description": "Features a soft microfiber interior and secure ambient closure to keep lenses clean and scratch-free.",
     "materials": [
@@ -485,7 +539,7 @@ export const products = [
     "name": "Lunoris Aldebaran Selvet & Accessory",
     "category": "accessory",
     "categoryLabel": "Selvet & Accessory",
-    "image": "/img/IMG-20260604-WA0044.jpg",
+    "image": case_img_24,
     "price": 1050,
     "description": "Meticulously crafted with a sleek profile and refined stitching, perfect for everyday sophistication.",
     "materials": [
@@ -505,7 +559,7 @@ export const products = [
     "name": "Lunoris Deneb Flat Case",
     "category": "flat-case",
     "categoryLabel": "Flat Case",
-    "image": "/img/IMG-20260604-WA0045.jpg",
+    "image": case_img_25,
     "price": 1200,
     "description": "Engineered for optimal protection with an organic lining that cushions and guards your delicate frames.",
     "materials": [
@@ -525,7 +579,7 @@ export const products = [
     "name": "Lunoris Acrux Pocket Case",
     "category": "pocket-case",
     "categoryLabel": "Pocket Case",
-    "image": "/img/IMG-20260604-WA0046.jpg",
+    "image": case_img_26,
     "price": 1350,
     "description": "A contemporary take on traditional luxury eyewear protection, blending utility with quiet luxury.",
     "materials": [
@@ -545,7 +599,7 @@ export const products = [
     "name": "Lunoris Castella Hard Case",
     "category": "hard-case",
     "categoryLabel": "Hard Case",
-    "image": "/img/IMG-20260604-WA0047.jpg",
+    "image": case_img_27,
     "price": 1500,
     "description": "Constructed from premium textured materials for ultimate tactile satisfaction and durability.",
     "materials": [
@@ -565,7 +619,7 @@ export const products = [
     "name": "Lunoris Luna Display & Counter Tray",
     "category": "display-tray",
     "categoryLabel": "Display & Counter Tray",
-    "image": "/img/IMG-20260604-WA0048.jpg",
+    "image": case_img_28,
     "price": 1650,
     "description": "Designed for effortless mobility, fitting comfortably in any bag or pocket while maintaining rigid protection.",
     "materials": [
@@ -585,7 +639,7 @@ export const products = [
     "name": "Lunoris Zenith Selvet & Accessory",
     "category": "accessory",
     "categoryLabel": "Selvet & Accessory",
-    "image": "/img/IMG-20260604-WA0049.jpg",
+    "image": case_img_29,
     "price": 1800,
     "description": "Features a soft microfiber interior and secure ambient closure to keep lenses clean and scratch-free.",
     "materials": [
@@ -605,7 +659,7 @@ export const products = [
     "name": "Lunoris Apex Flat Case",
     "category": "flat-case",
     "categoryLabel": "Flat Case",
-    "image": "/img/IMG-20260604-WA0050.jpg",
+    "image": case_img_30,
     "price": 450,
     "description": "Meticulously crafted with a sleek profile and refined stitching, perfect for everyday sophistication.",
     "materials": [
@@ -625,7 +679,7 @@ export const products = [
     "name": "Lunoris Aero Pocket Case",
     "category": "pocket-case",
     "categoryLabel": "Pocket Case",
-    "image": "/img/IMG-20260604-WA0052.jpg",
+    "image": case_img_31,
     "price": 600,
     "description": "Engineered for optimal protection with an organic lining that cushions and guards your delicate frames.",
     "materials": [
@@ -645,7 +699,7 @@ export const products = [
     "name": "Lunoris Somna Hard Case",
     "category": "hard-case",
     "categoryLabel": "Hard Case",
-    "image": "/img/IMG-20260604-WA0054.jpg",
+    "image": case_img_32,
     "price": 750,
     "description": "A contemporary take on traditional luxury eyewear protection, blending utility with quiet luxury.",
     "materials": [
@@ -665,7 +719,7 @@ export const products = [
     "name": "Lunoris Equinox Display & Counter Tray",
     "category": "display-tray",
     "categoryLabel": "Display & Counter Tray",
-    "image": "/img/IMG-20260604-WA0056.jpg",
+    "image": case_img_33,
     "price": 900,
     "description": "Constructed from premium textured materials for ultimate tactile satisfaction and durability.",
     "materials": [
@@ -685,7 +739,7 @@ export const products = [
     "name": "Lunoris Solstice Selvet & Accessory",
     "category": "accessory",
     "categoryLabel": "Selvet & Accessory",
-    "image": "/img/IMG-20260604-WA0057.jpg",
+    "image": case_img_34,
     "price": 1050,
     "description": "Designed for effortless mobility, fitting comfortably in any bag or pocket while maintaining rigid protection.",
     "materials": [
@@ -705,7 +759,7 @@ export const products = [
     "name": "Lunoris Eclipse Flat Case",
     "category": "flat-case",
     "categoryLabel": "Flat Case",
-    "image": "/img/IMG-20260604-WA0058.jpg",
+    "image": case_img_35,
     "price": 1200,
     "description": "Features a soft microfiber interior and secure ambient closure to keep lenses clean and scratch-free.",
     "materials": [
@@ -725,7 +779,7 @@ export const products = [
     "name": "Lunoris Astra Pocket Case",
     "category": "pocket-case",
     "categoryLabel": "Pocket Case",
-    "image": "/img/IMG-20260604-WA0059.jpg",
+    "image": case_img_36,
     "price": 1350,
     "description": "Meticulously crafted with a sleek profile and refined stitching, perfect for everyday sophistication.",
     "materials": [
@@ -745,7 +799,7 @@ export const products = [
     "name": "Lunoris Solis Hard Case",
     "category": "hard-case",
     "categoryLabel": "Hard Case",
-    "image": "/img/IMG-20260604-WA0060.jpg",
+    "image": case_img_37,
     "price": 1500,
     "description": "Engineered for optimal protection with an organic lining that cushions and guards your delicate frames.",
     "materials": [
@@ -765,7 +819,7 @@ export const products = [
     "name": "Lunoris Nova Display & Counter Tray",
     "category": "display-tray",
     "categoryLabel": "Display & Counter Tray",
-    "image": "/img/IMG-20260604-WA0063.jpg",
+    "image": case_img_38,
     "price": 1650,
     "description": "A contemporary take on traditional luxury eyewear protection, blending utility with quiet luxury.",
     "materials": [
@@ -785,7 +839,7 @@ export const products = [
     "name": "Lunoris Orion Selvet & Accessory",
     "category": "accessory",
     "categoryLabel": "Selvet & Accessory",
-    "image": "/img/IMG-20260604-WA0089.jpg",
+    "image": case_img_39,
     "price": 1800,
     "description": "Constructed from premium textured materials for ultimate tactile satisfaction and durability.",
     "materials": [
@@ -805,7 +859,7 @@ export const products = [
     "name": "Lunoris Lyra Flat Case",
     "category": "flat-case",
     "categoryLabel": "Flat Case",
-    "image": "/img/IMG-20260604-WA0090.jpg",
+    "image": case_img_40,
     "price": 450,
     "description": "Designed for effortless mobility, fitting comfortably in any bag or pocket while maintaining rigid protection.",
     "materials": [
@@ -825,7 +879,7 @@ export const products = [
     "name": "Lunoris Vela Pocket Case",
     "category": "pocket-case",
     "categoryLabel": "Pocket Case",
-    "image": "/img/IMG-20260604-WA0091.jpg",
+    "image": case_img_41,
     "price": 600,
     "description": "Features a soft microfiber interior and secure ambient closure to keep lenses clean and scratch-free.",
     "materials": [
@@ -845,7 +899,7 @@ export const products = [
     "name": "Lunoris Cygnus Hard Case",
     "category": "hard-case",
     "categoryLabel": "Hard Case",
-    "image": "/img/IMG-20260604-WA0092.jpg",
+    "image": case_img_42,
     "price": 750,
     "description": "Meticulously crafted with a sleek profile and refined stitching, perfect for everyday sophistication.",
     "materials": [
@@ -865,7 +919,7 @@ export const products = [
     "name": "Lunoris Taurus Display & Counter Tray",
     "category": "display-tray",
     "categoryLabel": "Display & Counter Tray",
-    "image": "/img/IMG-20260604-WA0093.jpg",
+    "image": case_img_43,
     "price": 900,
     "description": "Engineered for optimal protection with an organic lining that cushions and guards your delicate frames.",
     "materials": [
@@ -885,7 +939,7 @@ export const products = [
     "name": "Lunoris Gemini Selvet & Accessory",
     "category": "accessory",
     "categoryLabel": "Selvet & Accessory",
-    "image": "/img/IMG-20260604-WA0094.jpg",
+    "image": case_img_44,
     "price": 1050,
     "description": "A contemporary take on traditional luxury eyewear protection, blending utility with quiet luxury.",
     "materials": [
@@ -905,7 +959,7 @@ export const products = [
     "name": "Lunoris Polaris Flat Case",
     "category": "flat-case",
     "categoryLabel": "Flat Case",
-    "image": "/img/IMG-20260604-WA0095.jpg",
+    "image": case_img_45,
     "price": 1200,
     "description": "Constructed from premium textured materials for ultimate tactile satisfaction and durability.",
     "materials": [
@@ -925,7 +979,7 @@ export const products = [
     "name": "Lunoris Sirius Pocket Case",
     "category": "pocket-case",
     "categoryLabel": "Pocket Case",
-    "image": "/img/IMG-20260604-WA0096.jpg",
+    "image": case_img_46,
     "price": 1350,
     "description": "Designed for effortless mobility, fitting comfortably in any bag or pocket while maintaining rigid protection.",
     "materials": [
@@ -945,7 +999,7 @@ export const products = [
     "name": "Lunoris Vega Hard Case",
     "category": "hard-case",
     "categoryLabel": "Hard Case",
-    "image": "/img/IMG-20260604-WA0097.jpg",
+    "image": case_img_47,
     "price": 1500,
     "description": "Features a soft microfiber interior and secure ambient closure to keep lenses clean and scratch-free.",
     "materials": [
@@ -965,7 +1019,7 @@ export const products = [
     "name": "Lunoris Altair Display & Counter Tray",
     "category": "display-tray",
     "categoryLabel": "Display & Counter Tray",
-    "image": "/img/IMG-20260604-WA0099.jpg",
+    "image": case_img_48,
     "price": 1650,
     "description": "Meticulously crafted with a sleek profile and refined stitching, perfect for everyday sophistication.",
     "materials": [
@@ -985,7 +1039,7 @@ export const products = [
     "name": "Lunoris Premium Leather Strap",
     "category": "chain-strap",
     "categoryLabel": "Chains & Straps",
-    "image": "/img/eyeglass chains/Eyeglass-Chain-Glasses-Strap-Cords-Sunglass-Holder.webp",
+    "image": chain_img_0,
     "price": 450,
     "description": "Handcrafted leather glasses cord designed for durability and refined accessory style.",
     "materials": [
@@ -1005,7 +1059,7 @@ export const products = [
     "name": "Lunoris Classic Link Chain",
     "category": "chain-strap",
     "categoryLabel": "Chains & Straps",
-    "image": "/img/eyeglass chains/Screenshot_12-6-2026_192125_www.meesho.com.jpeg",
+    "image": chain_img_1,
     "price": 499,
     "description": "Sleek and delicate metal link eyeglass chain designed for daily elegance.",
     "materials": [
@@ -1025,7 +1079,7 @@ export const products = [
     "name": "Lunoris Soft Weave Cord",
     "category": "chain-strap",
     "categoryLabel": "Chains & Straps",
-    "image": "/img/eyeglass chains/Screenshot_12-6-2026_192243_www.meesho.com.jpeg",
+    "image": chain_img_2,
     "price": 399,
     "description": "Vibrant and robust braided cotton glasses cord with adjustable non-slip locks.",
     "materials": [
@@ -1045,7 +1099,7 @@ export const products = [
     "name": "Lunoris Luxe Beaded Holder",
     "category": "chain-strap",
     "categoryLabel": "Chains & Straps",
-    "image": "/img/eyeglass chains/Screenshot_12-6-2026_192336_www.meesho.com.jpeg",
+    "image": chain_img_3,
     "price": 599,
     "description": "Premium beaded sunglass strap adding a elegant jewelry accent to your visionwear.",
     "materials": [
